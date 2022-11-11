@@ -1,15 +1,27 @@
 .account {
     display: flex;
+    justify-content: space-evenly;
     gap: 16px;
     padding: 12px;
     width: 100%;
 }
 
+/* Styles for icons */
 .icon {
     width: 36px;
     height: 36px;
-    background-color: blue;
-    border-radius: 9999px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary {
+    background-color: #7eabe6;
+}
+
+.secondary {
+    background-color: #e36b8d;
 }
 
 /* Styles on Active */
@@ -20,7 +32,7 @@
 /* Account details */
 .details {
     display: flex;
-    gap: 4px;
+    gap: 6px;
     flex-direction: column;
 }
 
@@ -32,21 +44,42 @@
 
 .detailsNumerics {
     display: flex;
-    gap: 16px;
+    align-items: baseline;
+    gap: 32px;
+    padding-bottom: 10px;
 }
 
 .detailsTotal {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
 }
 
 .detailsCurrency {
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     font-style: italic;
     color: #8d8e92;
 }
 
 .detailsCta {
+    font-size: 15px;
     color: #8bb29d;
+}
+
+/* Style for percentage in statistics */
+.percentage {
+    width: 60px;
+    height: 25px;
+    color: black;
+    padding: 5px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.positive {
+    background-color: #66db9a;
 }

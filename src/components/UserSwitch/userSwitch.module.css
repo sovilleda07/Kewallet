@@ -1,3 +1,20 @@
+/* Wrapper general para los 2 */
+.user {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Íconos */
+.icons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Wrapper para info del usuario */
 .switch {
     display: flex;
     align-items: center;

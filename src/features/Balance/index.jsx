@@ -7,7 +7,7 @@ function Balance({ className }) {
         <div className={clsx(styles.balance, className)}>
             {/* Encabezado */}
             <div className={styles.head}>
-                <span>My balance </span>
+                <span className={styles.title}>My Balance </span>
                 <div className={styles.selector}>
                     <select>
                         <option value="">Select Range</option>
@@ -19,17 +19,21 @@ function Balance({ className }) {
             </div>
             {/* Cards de accounts */}
             <div className={styles.accounts}>
-                <Account 
+                <Account
                     title="Available Balance"
                     growthValue="2.0"
-                    total="45000"
+                    total="$43,781"
                     currency="USD"
+                    icon="fa-seedling"
+                    color="primary"
                 />
-                <Account 
-                    title="Available Balance"
-                    growthValue="2.0"
-                    total="45000"
+                <Account
+                    title="Pending"
+                    growthValue="-4.0"
+                    total="$865.00"
                     currency="USD"
+                    icon="fa-money-bill-alt"
+                    color="secondary"
                     active
                 />
             </div>

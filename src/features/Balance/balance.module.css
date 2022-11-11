@@ -14,11 +14,15 @@
     align-items: center;
 }
 
+.title {
+    font-weight: 700;
+}
+
 .selector select {
     background: transparent;
     border: 0;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     padding: 6px 8px;
     border-radius: 6px;
 }

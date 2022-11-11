@@ -3,8 +3,6 @@ import Logo from '../../Logo';
 import Container from '../../Container';
 import UserSwitch from '../../UserSwitch';
 
-// Se importa el module y se envía como variable en className
-
 function Header() {
     return (
         <header className={styles.header}>
@@ -13,7 +11,7 @@ function Header() {
             <Container className={styles.container}>
                 {/* className es la propiedad que está esperando el componente */}
                 {/* Hijo que se renderiza dentro de container por prop children */}
-                <Logo className={styles.logo}/>
+                <Logo className={styles.logo} />
 
                 {/* Navegación */}
                 <nav className={styles.nav}>
@@ -38,7 +36,7 @@ function Header() {
                 <UserSwitch />
             </Container>
         </header>
-    )
+    );
 }
 
-export default Header
+export default Header;
