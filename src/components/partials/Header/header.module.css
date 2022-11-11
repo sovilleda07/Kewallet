@@ -1,0 +1,39 @@
+.header {
+    background: #212329;
+    padding: 8px 0;
+}
+
+/* Se añadirán los estilos del logo aquí para mantenerlos aislados y personalizar en cada compoente que se utilice */
+.logo {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav li {
+    font-weight: 700;
+    list-style: none;
+}
+
+.nav li > a {
+    color: white;
+    padding: 2px 30px;
+    text-decoration: none;
+}
+
+.nav li > a:first-child {
+    padding-left: 0;
+}
+
+/* Custom Container */
+.container {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-between;
+}
