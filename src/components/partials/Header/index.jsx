@@ -9,7 +9,7 @@ function Header() {
     return (
         <header className={styles.header}>
             {/* Contenedor para envolver (wrap) al hijo */}
-                {/* Div para que envuelva todos los componentes, porque el Container es un componente aparte o pasarle clase al Container*/}
+            {/* Div para que envuelva todos los componentes, porque el Container es un componente aparte o pasarle clase al Container*/}
             <Container className={styles.container}>
                 {/* className es la propiedad que está esperando el componente */}
                 {/* Hijo que se renderiza dentro de container por prop children */}
