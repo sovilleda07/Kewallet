@@ -1,0 +1,48 @@
+.cashOut {
+    background-color: #2d2e37;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;  
+    /* justify-content: center; */
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27292d;
+}
+
+.payments {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.transfer {
+    display: flex;
+    justify-content: center;
+    color: #8d8e92;
+    font-size: 12px;
+    text-decoration: underline;
+}

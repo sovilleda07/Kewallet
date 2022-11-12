@@ -1,0 +1,46 @@
+.payment {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1c1d21;
+    gap: 16px;
+    padding: 12px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.icon {
+    width: 55px;
+    height: 80%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.primary {
+    background-color: #7eabe6;
+}
+
+.secondary {
+    background-color: #e36b8d;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.detailsData {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.detailsType {
+    color: #8d8e92;
+    font-size: 14px;
+    font-style: italic;
+}
