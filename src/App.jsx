@@ -4,6 +4,7 @@ import Header from './components/partials/Header';
 // Features
 import Balance from './features/Balance';
 import CashOut from './features/CashOut';
+import Analytic from './features/Analytic';
 // Importar library y los íconos a utilizar en todos los componentes
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -18,6 +19,7 @@ import {
     faCog,
     faUniversity,
     faMoneyCheck,
+    faChevronDown,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -31,7 +33,8 @@ library.add(
     faArrowDown,
     faCog,
     faUniversity,
-    faMoneyCheck
+    faMoneyCheck,
+    faChevronDown
 );
 
 function App() {
@@ -46,9 +49,8 @@ function App() {
                     <div className={styles.grid}>
                         {/* Balance por cada uno de los componentes */}
                         <Balance className={styles.blockBalance} />
-                        {/* <Balance className={styles.blockAnalytics} />
-                        <Balance className={styles.blockCashOut} /> */}
                         <CashOut className={styles.blockCashOut} />
+                        <Analytic className={styles.blockAnalytics} />
                     </div>
                 </Container>
             </main>

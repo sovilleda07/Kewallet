@@ -1,0 +1,19 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    /* padding: 12px;*/
+}
+
+.title {
+    color: #8d8e92;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.data {
+    font-size: 28px;
+    font-weight: 700;
+}
